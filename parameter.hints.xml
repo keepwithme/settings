@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="org.apache.commons.dbutils.DbUtils.loadDriver(driverClassName)" />
+        <added pattern="java.sql.PreparedStatement.setObject(parameterIndex,x)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
